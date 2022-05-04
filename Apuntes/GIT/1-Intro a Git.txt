@@ -1,6 +1,9 @@
 Explicación de ciertas funciones
 
 COMMIT
+Es la función el que se crean copias de diferentes versiones de un archivo con cada edición de manera local.
+Tenemos acceso a todas estas versiones desde nuestro entorno de desarollo, los commit no son agregados directamene 
+a la rama principal, se hace de manera explícita .
 FETCH
 PULL 
 PUSH
