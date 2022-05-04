@@ -1,0 +1,6 @@
+Explicación de ciertas funciones
+
+COMMIT
+FETCH
+PULL 
+PUSH
