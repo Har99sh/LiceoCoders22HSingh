@@ -9,7 +9,10 @@ PUSH
 Una vez el commit está listo con las ediciones deseadas y listo para la integración con la rama principal se 
 realiza push. Envia la copia local al repositorio definitivo de github.
 
-PULL
-
 FETCH
-hay cambio
+Cuando hacemos un cambio directamente en el repositorio original de github, en el github desktop, ejecutando fetch se comprueba
+si han habido cambios, pero no exporta el material cambiado directamente.
+
+PULL
+Después del fetch, si vemos que hay cambios y los queremos en nuestro repositorio local, hacemos pull a los cambios desados y ya los 
+tenemos de forma local.
