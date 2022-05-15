@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <h1> Ejercicio 1 de introducción a HTML</h1>
@@ -7,7 +8,7 @@
     </head>
     <body>
         
-        <h3>Las etiquetas <code>&lt;p&gt;content&lt;/p&gt;</code> y <code>&lt;br/&gt;</code> </h3>
+        <h3>Las etiquetas <code>&lt;p&gt;&lt;/p&gt;</code> y <code>&lt;br/&gt;</code> </h3>
 
           <p>
             La etiqueta <big><code>&lt;p&gt;</code></big> sirve para crear párrafos distintos, cuando se usan dos etiquetas p seguidas hace, que salga una línea de espacio. 
@@ -56,39 +57,89 @@
             Con la etiqueta <code><big>&lt;big&gt;</big></code> conseguimos un texto <big>mas grande que al resto.</big> <br/>
             Con la etiquta <code><big>&lt;small&gt;</big></code> conseguimos un texto <small>mas pequeño.</small>
           </p>
-          <code>&lt;p&gt;&lt;/p&gt;</code>
-          <code><big>&lt;&gt;</big></code> 
+
+        <h3>Las etiquetas <code>&lt;sub&gt;&lt;/sub&gt;</code> y <code>&lt;sup&gt;&lt;/sup&gt;</code></h3>
+          <p>
+            Usamos <code><big>&lt;sub&gt;</big></code> para crear subindice en una palabra o número como por ejemplo, <br/>
+            sub<sub>índice</sub> creado<sub> así</sub>. <br/>
+            Y con <code><big>&lt;sup&gt;</big></code>, nos permite crear superíndce como por ejemplo: 2<sup>2</sup> o (g)<sup>x<sup>2</sup>.      
+          </p>
+
+        <h3>Las etiquetas <code>&lt;strike&gt;&lt;/strike&gt;</code> y <code>&lt;del&gt;&lt;/del&gt;</code></h3>
+          <p>
+            Con <code><big>&lt;strike&gt;</big></code>, podemos conseguir que <strike>el texto salga tachado</strike>. Ya no soportado en HTML5<br/>
+            Ahora se usa <code><big>&lt;s&gt;</big></code>, <s>en su lugar.</s> <br/>
+            Con <code><big>&lt;del&gt;</big></code>, conseguimos el mismo efecto visual, pero es el más idicado para referenciar <br/>
+            <del>texto que se ha tachado y indicar diferencias</del> con el nuevo texto
+              
+          </p> 
+
+        <h3>Etiqueta <code>&lt;pre&gt;&lt;/pre&gt;</code> </h3>
+          <p> Dentro de <code><big>&lt;pre&gt;</big></code>
+             <pre>podemos mostrar el texto
+                    tal y como queremos
+              enseñarlo, el texto 
+                        está preformateado.
+                y retiene sus propiedades en 
+                   el navegador.
+            </pre> 
+          </p>
+        <h3>Etiqueta <code>&lt;abbr&gt;&lt;/abbr&gt;</code> </h3>
+          <p>Esta etiqueta nos permite abreviar, algunas palabaras y mostrar sus siglas. Código: </br>
+            <code>&lt;abbr title="Aqui las palabras a abreviar"> aqui el resultado&lt;/abbr &gt;</code> <br/>
+            ejemplo: <code>&lt;abbr title="World Wide Web"> resultado WWW&lt;/abbr &gt;</code> <br/>
+            <abbr title=”World Wide Web”>WWW</abbr> y al pasar el cursos nos muestra la palabra completa.
+          </p>
+
+        <h3>Etiqueta <code>&lt;mark&gt;&lt;/mark&gt;</code> </h3>
+          <p>
+            Con <code><big>&lt;mark&gt;</big></code> conseguimos <mark>que el texto salga con highlights.</mark>
+          </p>
+        <h3>Etiqueta <code>&lt;a&gt;&lt;/a&gt;</code> </h3>
+          <p>
+            Con  <code><big>&lt;a&gt;</big></code>, podemos crear un hyperlink que nos lleve a otra página. Código: <br/>
+            <code>&lt;a href="aqui va el link">aqui el elmento a convertir en link&lt;/a></code> ejemplo: <br/>
+            <a href="https://www.w3schools.com/tags/tag_a.asp">Link de a</a>
+          
+          </p>
+        <h3>Etiqueta <code>&lt;img&gt;</code> </h3>
+          <p>
+            Nos permite insertar una imagen. Código: <br/>
+            <code>&lt;img src="aqui va el link"></code> ejemplo: <br/>
+            <img src="http://sunnylandingpages.com/blog/wp-content/uploads/2017/06/html-flat1.png" alt="imagen ejemplo html">
+          </p>
+
+        <h3>Etiquetas <code>&lt;ol&gt;&lt;/ol&gt;</code> y <code>&lt;ul&gt;&lt;/ul&gt;</code>  </h3>
+          <p>
+            Estas etiquetas nos permiten crear lista con el tag <code>&lt;li&gt;&lt;/li&gt; insertamos los elementos.</code>. Con <code><big>&lt;ol&gt;</big></code>, creamos listas ordenadas.
+            <ol>
+              <li>Elemento 1</li>
+              <li>Elemento 2</li>
+              <li>Elemento 3</li>
+              <li>Elemento 4</li>
+              <li>Elemento 5</li>
+            </ol>
+           Con <code><big>&lt;ul&gt;</big></code>, creamos listas sin orden específico.
+           <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>Elemento 5</li>
+          </ul>
         
-        
-        
-        
-        
-      
-        <p><i>hace que el texto salga en itálicas</i> 
-         <br/><em>itálica mas importante</em></p>
-      
-        <p> <strike> el texto sale tachado </strike> <br/> 
-           <del>el texto se tacha con este tambien</del> 
-        </p>
-      
-        <h1>hola</h1>
-        <h2>mas peque</h2>
-        <h6>el menor de todos</h6>
-      
-        <p><pre> muestra el contenido sin ejecutar la 
-         etiqueta <h1>espero</h1></pre></p>
-      
-        <p><mark>usas mark para resaltar el textp</mark> 
-        <br/>
-          <abbr title= “World Wide Web”>WWW</abbr>    </p>
-      
-        <p> puede crear un subindice con sup 
-         <sup>20</sup>
-         <br/> y subindice con sub<sub>20</sub> 
-        </p>
-      
-        
-        
-        
+          </p>
+        <h3>Etiqueta <code>&lt;blockquote&gt;&lt;/blockquote&gt;</code> </h3>
+          <p>
+            Esta nos permite hacer citaciones, por ejemplo de otra página web. Código: <br/>
+            <code>&lt;blockquote cite="aqui va el link">aqui el texto citado&lt;/blockquote></code> ejemplo: <br/>
+              <p>Here is a quote from WWF's website:</p>
+
+              <blockquote cite="http://www.worldwildlife.org/who/index.html">
+              For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+              </blockquote>
+          
+          </p>
+       
       </body>
 </html>
