@@ -1,0 +1,32 @@
+div{
+    display: inline-block;
+    
+}
+
+.box{
+    border: 1px solid black;
+    width: 150px;
+    height: 100px;
+    margin: -4px;
+}
+
+.uno{
+    background-color: #f00;
+}
+
+.dos{
+    background-color: #0f0;
+}
+
+.tres{
+    background-color: #0000ff;
+}
+
+.cuatro{
+    background-color: #ff0;
+}
+
+.cinco{
+    background-color: #0ff;
+}
+
