@@ -27,9 +27,9 @@ if (coche == 1){
     alert("Ferrrrrrrrrari");
 }
 
-let coche = 2;
+let coche2 = 2;
 
-if (coche == 1){
+if (coche2 == 1){
     console.log("Esto es la variable let ferrari en consola");
     alert("Ferrrrrrrrrari");
 }
