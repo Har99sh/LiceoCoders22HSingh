@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transiciones</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: width 2s;
+            
+            }
+        
+        .box:hover{
+            width: 300px;
+            }
+
+        .ej1{
+            transition: width 2s;
+            }
+        
+        .ej2{            
+            transition-timing-function: ease-in-out;
+            }    
+
+        .ej3{
+            transition-delay: 3s;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Transiciones</h1>
+    <h2>1. Cambio de ancho</h2>
+
+    <div class="box ej1">
+        <p>Transición a la derecha</p>
+    </div>
+
+    <div class="box ej2">
+        <p>Curva de velocidad de entrada y salida</p>
+    </div>
+
+    <div class="box ej3">
+        <p>Efecto de delay</p>
+    </div>
+</body>
+</html>
