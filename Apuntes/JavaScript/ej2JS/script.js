@@ -4,3 +4,5 @@ var arrayRandom = [];
      arrayRandom.push(Math.floor(Math.random()*6)+1); 
     console.log(arrayRandom);
 }
+
+//poner console.log fuera de funcion para que solo se imprima array con 50 numeros.
