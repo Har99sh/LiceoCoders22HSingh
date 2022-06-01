@@ -42,6 +42,7 @@ var catetoA = Math.floor(Math.random() * 6) + 1;
 var catetoB = Math.floor(Math.random() * 6) + 1;
 
 function calcHipo() {
+    
     var result = Math.sqrt((catetoA * catetoA) + (catetoB * catetoB));
     console.log(result);
 }
