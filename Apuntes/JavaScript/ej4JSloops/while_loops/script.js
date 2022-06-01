@@ -24,17 +24,22 @@ while (nx < 5){
 
 //Ej 2 priámide + invertida
 
-// let ix = 5;
+let dx = 1;
 
-// while (ix > 1){ 
-//     px= "+" + "+" + "+" + "+" + "+";
-//     lx = "+" 
-//     console.log(px);  
-//     while (ix < 5){
-//         ix--; 
-//         console.log(px - lx)
-//     }
-// }
+while (dx < 5 ){ 
+  
+    vx = "+++++"; 
+    console.log(vx);
+    
+      while (dx < 5) {
+        sx = vx.slice(dx);
+        console.log(sx);
+        dx++;
+      }
+
+}
+
+
 // prueba de pirámide, sale de dos en dos
 // let n = 0;
 // while (n < 5){ nx= "+"; console.log(nx);  while (n < 5){n++; console.log(nx += nx)}}
