@@ -1,42 +1,55 @@
 
 // Ej 1 cuadrado de +++++
 
-let cx = 0;
+let ax = 0;
 
-while (cx< 5) {
-    let dx = "+++++";
-    console.log(dx);
+while (ax< 5) {
+    let bx = "+++++";
+    console.log(bx);
     cx++;
 }
 
 // Ej 2 pirámide +
 
-let nx = 1;
+let cx = 1;
 
-while (nx < 5){ 
-    mx= "+"; 
-    console.log(mx);  
-    while (nx < 5){
-        nx++; 
-        console.log(mx += "+")
+while (cx < 5){ 
+    dx= "+"; 
+    console.log(dx);  
+    while (cx < 5){
+        cx++; 
+        console.log(dx += "+")
     }
 }
 
-//Ej 2 priámide + invertida
+//Ej 3 priámide + invertida
 
-let dx = 1;
+let ex = 1;
 
-while (dx < 5 ){ 
+while (ex < 5 ){ 
   
-    vx = "+++++"; 
-    console.log(vx);
+    fx = "+++++"; 
+    console.log(fx);
     
-      while (dx < 5) {
-        sx = vx.slice(dx);
-        console.log(sx);
-        dx++;
+      while (ex < 5) {
+        gx = fx.slice(ex);
+        console.log(gx);
+        ex++;
       }
 
+}
+
+// Numero de filas de estrellas según el input de usuario
+
+let userNumber = 15, hx = 0;
+
+while (hx <= userNumber){ 
+    ix= "+"; 
+    console.log(ix);  
+    while (hx <= userNumber){
+        console.log(ix += "+");
+        hx++;
+    }
 }
 
 
