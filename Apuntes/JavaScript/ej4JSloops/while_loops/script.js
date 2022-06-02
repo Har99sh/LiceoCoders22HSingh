@@ -12,11 +12,12 @@ while (ax< 5) {
 // Ej 2 pirámide +
 
 let cx = 1;
+let userInput = 15;
 
-while (cx < 5){ 
+while (cx < userInput){ 
     dx= "+"; 
     console.log(dx);  
-    while (cx < 5){
+    while (cx < userInput){
         cx++; 
         console.log(dx += "+")
     }
@@ -41,16 +42,42 @@ while (ex < 5 ){
 
 // Numero de filas de estrellas según el input de usuario
 
-let userNumber = 15, hx = 0;
+let hx = 1;
 
-while (hx <= userNumber){ 
-    ix= "+"; 
-    console.log(ix);  
-    while (hx <= userNumber){
-        console.log(ix += "+");
-        hx++;
+function userInputPyramid(userNumber){
+    while (hx < userNumber){ 
+        ix= "+"; 
+        console.log(ix);  
+        while (hx < userNumber){
+            console.log(ix += "+");
+            hx++;
+        }
+    }
+
+}
+
+userInputPyramid(15);
+
+
+// Función pirámide invertida
+
+let jx = 1;
+
+function myInvPyramid(myNumber){
+    while (jx < myNumber ){ 
+      
+        kx = "+".repeat(myNumber); 
+        console.log(kx);
+        
+        while (jx < myNumber) {
+            lx = kx.slice(jx);
+            console.log(lx);
+            jx++;
+        }
     }
 }
+
+myInvPyramid(20);
 
 
 // prueba de pirámide, sale de dos en dos
