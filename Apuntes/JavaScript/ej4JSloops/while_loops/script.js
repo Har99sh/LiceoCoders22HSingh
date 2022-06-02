@@ -44,7 +44,7 @@ while (ex < 5 ){
 
 let hx = 1;
 
-function userInputPyramid(userNumber){
+function myNormPyramid(userNumber){
     while (hx < userNumber){ 
         ix= "+"; 
         console.log(ix);  
@@ -56,7 +56,7 @@ function userInputPyramid(userNumber){
 
 }
 
-userInputPyramid(15);
+myNormPyramid(15);
 
 
 // Función pirámide invertida
