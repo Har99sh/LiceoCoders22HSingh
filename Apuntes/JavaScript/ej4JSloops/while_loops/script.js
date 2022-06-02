@@ -9,34 +9,34 @@ while (ax< 5) {
     cx++;
 }
 
-// Ej 2 pirámide +
+// Ej 2 pirámide + de 5
 
 let cx = 1;
 let userInput = 15;
 
 while (cx < userInput){ 
     dx= "+"; 
-    console.log(dx);  
-    while (cx < userInput){
-        cx++; 
-        console.log(dx += "+")
-    }
+    console.log(dx);
+
+        while (cx < userInput){
+            cx++; 
+            console.log(dx += "+")
+        }
 }
 
-//Ej 3 priámide + invertida
+//Ej 3 priámide + invertida de 5
 
 let ex = 1;
 
-while (ex < 5 ){ 
-  
+while (ex < 5 ){   
     fx = "+++++"; 
     console.log(fx);
-    
-      while (ex < 5) {
-        gx = fx.slice(ex);
-        console.log(gx);
-        ex++;
-      }
+        
+        while (ex < 5) {
+            gx = fx.slice(ex);
+            console.log(gx);
+            ex++;
+        }
 
 }
 
@@ -47,11 +47,12 @@ let hx = 1;
 function myNormPyramid(userNumber){
     while (hx < userNumber){ 
         ix= "+"; 
-        console.log(ix);  
-        while (hx < userNumber){
-            console.log(ix += "+");
-            hx++;
-        }
+        console.log(ix);
+
+            while (hx < userNumber){
+                console.log(ix += "+");
+                hx++;
+            }
     }
 
 }
@@ -69,11 +70,11 @@ function myInvPyramid(myNumber){
         kx = "+".repeat(myNumber); 
         console.log(kx);
         
-        while (jx < myNumber) {
-            lx = kx.slice(jx);
-            console.log(lx);
-            jx++;
-        }
+            while (jx < myNumber) {
+                lx = kx.slice(jx);
+                console.log(lx);
+                jx++;
+            }
     }
 }
 
