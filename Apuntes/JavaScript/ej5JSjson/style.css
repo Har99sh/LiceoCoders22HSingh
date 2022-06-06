@@ -1,0 +1,63 @@
+body {
+    background-color: beige;
+}
+h1 {
+    color: rgb(73, 73, 217);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: fit-content;
+    height: auto;
+}
+
+.student {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin: 15px 0 15px 0;
+    text-align: center;
+    justify-content: center;    
+    color:rgb(56, 105, 54);
+    border-radius: 5%;
+    position: relative;
+    animation-name: student;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes student {
+    0%   {background-color: rgb(241, 128, 128); left: 0px; top: 0px;}
+    25%  {background-color: rgb(243, 243, 150); left:50px; top: 0px;}
+    50%  {background-color: rgb(174, 174, 245); left: 50px; top: 50px;}
+    75%  {background-color:rgb(255, 163, 238); left:0px; top:50px;}
+    100% {background-color: rgb(169, 241, 169); left: 0px; top: 0px;}
+    
+  }
+
+
+.student:hover{
+    width: 400px;
+    height: 400px;
+    font-size: xx-large;
+}
+
+
+.name:hover{
+    color: aqua;
+}
+.surname:hover{
+    color: rgb(237, 84, 122);
+}
+.age:hover{
+    color: rgb(169, 83, 136);
+}
+.city:hover{
+    color: rgb(13, 244, 40);
+}

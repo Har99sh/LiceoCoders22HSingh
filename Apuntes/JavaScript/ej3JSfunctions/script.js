@@ -1,6 +1,6 @@
 // 1 Perímetro de circulo dado el radio
 
-let radCircle = 5;
+let radCircle = Math.floor(Math.random() * 6) + 1;
 
 function calcPeriCircle(){
 
@@ -20,7 +20,7 @@ function calcAreaCirc(){
 
 //3 Perímetro de cuadrado dado el lado
 
-let edgeSquare = 2;
+let edgeSquare = Math.floor(Math.random() * 6) + 1;
 
 function calcPeriSquare(){
 
@@ -38,10 +38,11 @@ function calcAreaSquare(){
 
 //4 Hipotenusa de un triangulo rectangulo
 
-var catetoA = 5;
-var catetoB = 3;
+var catetoA = Math.floor(Math.random() * 6) + 1;
+var catetoB = Math.floor(Math.random() * 6) + 1;
 
 function calcHipo() {
+    
     var result = Math.sqrt((catetoA * catetoA) + (catetoB * catetoB));
     console.log(result);
 }
