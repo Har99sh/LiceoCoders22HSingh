@@ -1,0 +1,65 @@
+
+ const alumnos = [
+    {
+      "nombre": "harshdeep",
+      "apellido": "singh",
+      "edad": "22",
+      "ciudad": "barcelona"
+    },
+    {
+      "nombre": "david",
+      "apellido": "león",
+      "edad": "24",
+      "ciudad": "sant quirze"
+    },
+    {
+      "nombre": "agus",
+      "apellido": "ferrando",
+      "edad": "25",
+      "ciudad": "barcelona"
+    },
+    {
+      "nombre": "guille",
+      "apellido": "ruiz",
+      "edad": "19",
+      "ciudad": "barcelona"
+    },
+    {
+      "nombre": "andrea",
+      "apellido": "bernardino",
+      "edad": "24",
+      "ciudad": "rioja"
+    },
+    {
+      "nombre": "matías",
+      "apellido": "zito",
+      "edad": "25",
+      "ciudad": "rioja"
+    },
+    {
+      "nombre": "jacobo",
+      "apellido": "pedrosa",
+      "edad": "30",
+      "ciudad": "viladecans"
+    },
+    {
+      "nombre": "eva",
+      "apellido": "goc",
+      "edad": "29",
+      "ciudad": "barcelona"
+    },
+    {
+      "nombre": "karol",
+      "apellido": "blandon",
+      "edad": "25",
+      "ciudad": "calahorra"
+    },
+    {
+      "nombre": "carlos",
+      "apellido": "meza",
+      "edad": "30",
+      "ciudad": "navarra"
+    }
+  ];
+
+const knkldnc = '[{"nombre":"harshdeep","apellido":"singh","edad":"22","ciudad":"barcelona"},{"nombre":"david","apellido":"león","edad":"24","ciudad":"sant quirze"},{"nombre":"agus","apellido":"ferrando","edad":"25","ciudad":"barcelona"},{"nombre":"guille","apellido":"ruiz","edad":"19","ciudad":"barcelona"},{"nombre":"andrea","apellido":"bernardino","edad":"24","ciudad":"rioja"},{"nombre":"matías","apellido":"zito","edad":"25","ciudad":"rioja"},{"nombre":"jacobo","apellido":"pedrosa","edad":"30","ciudad":"viladecans"},{"nombre":"eva","apellido":"goc","edad":"29","ciudad":"barcelona"},{"nombre":"karol","apellido":"blandon","edad":"25","ciudad":"calahorra"},{"nombre":"carlos","apellido":"meza","edad":"30","ciudad":"navarra"}]'
