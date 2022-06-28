@@ -1,7 +1,7 @@
 /**1.Declare una función fullName e imprima su nombre completo. */
 
-let fullName = (fullNameIs) => console.log(fullNameIs);
-//fullName("harshdeep Singh");
+let fullName = fullNameIs => console.log(fullNameIs);
+fullName("harshdeep Singh");
 
 
 //2. Declare una función fullName y ahora toma firstName, lastName como parámetro y devuelve su nombre completo.
@@ -26,8 +26,8 @@ let density = (mass, volume) => console.log("density =  " + (mass/volume));
 
 //12. Celsius to farenheit
 
-let celToFAr = (celsius) => console.log(((celsius * (9/5)) + 32) + " farenheit")
-//celToFAr(38)
+let celToFar = celsius => console.log(((celsius * (9/5)) + 32) + " farenheit")
+//celToFar(38)
 
 //13 Body mass index
 
@@ -56,11 +56,11 @@ function whatMonth () {
     return month
 }
 
-function seasonCheck(month) {
+//function seasonCheck(month) {
 
-}
+//}
 
 //15 Max int checker
 
-function maxNumber(a, b, c)
+//function maxNumber(a, b, c)
 
